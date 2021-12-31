@@ -4,12 +4,12 @@
 
 This project is a basic P2P messaging client that utilizes NAT hole punching. It has two parts:
 
-- `server/`: used for initial connection and to exchange NAT IP & port. Deployed using Terraform code in `server_deploy/`.
+- `server/`: used for initial connection and to exchange NAT IP & port. Deployed onto Google Cloud using Terraform code in `server_deploy/`.
 - `client/`: used for actually sending and receiving messages. Connects to server, then uses information to make P2P connection.
 
 
 > NOTE: NAT hole punching doesn't work on all networks. [Before you use this, ensure that you have a 
-permissive NAT that allows for hole punching.](https://clients.dh2i.com/NatTest/).
+permissive NAT that allows for hole punching.](https://clients.dh2i.com/NatTest/)
 
 Two clients that use the same "keyword" can send messages between each other, as you'd expect from a standard messaging client.
 
