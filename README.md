@@ -1,4 +1,4 @@
-# P2P Messaging Client (using NAT Hole Punching)
+# P2P Messaging System (using NAT Hole Punching)
 
 ![demo.png](demo.png)
 
