@@ -1,0 +1,8 @@
+[package]
+name = "client"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+ctrlc = { version = "3.0", features = ["termination"] }
+eframe = "0.15.0"
